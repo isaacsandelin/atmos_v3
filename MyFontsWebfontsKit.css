@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "LuxoraGroteskRegular";
+  background-color: #3E4044;
+}
+
+@font-face {
+  font-family: "LuxoraGroteskThin";
+  src: url('webFonts/LuxoraGroteskThin/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskThin/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskRegular";
+  src: url('webFonts/LuxoraGroteskRegular/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskRegular/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskBook";
+  src: url('webFonts/LuxoraGroteskBook/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskBook/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskLightItalic";
+  src: url('webFonts/LuxoraGroteskLightItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskLightItalic/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskMediumItalic";
+  src: url('webFonts/LuxoraGroteskMediumItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskMediumItalic/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskItalic";
+  src: url('webFonts/LuxoraGroteskItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskItalic/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskLight";
+  src: url('webFonts/LuxoraGroteskLight/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskLight/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskMedium";
+  src: url('webFonts/LuxoraGroteskMedium/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskMedium/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskBoldItalic";
+  src: url('webFonts/LuxoraGroteskBoldItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskBoldItalic/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskBookItalic";
+  src: url('webFonts/LuxoraGroteskBookItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskBookItalic/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskHeavy";
+  src: url('webFonts/LuxoraGroteskHeavy/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskHeavy/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskHeavyItalic";
+  src: url('webFonts/LuxoraGroteskHeavyItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskHeavyItalic/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskBold";
+  src: url('webFonts/LuxoraGroteskBold/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskBold/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "LuxoraGroteskThinItalic";
+  src: url('webFonts/LuxoraGroteskThinItalic/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskThinItalic/font.woff') format('woff');
+}
+
