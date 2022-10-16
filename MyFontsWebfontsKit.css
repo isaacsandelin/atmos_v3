@@ -84,6 +84,7 @@ header {
   height: 10vh;
   position: fixed;
   display: inline-flex;
+  /* background-color: #3E4044; */
 }
 
 nav {
@@ -112,9 +113,11 @@ nav > a {
 #clicks {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 35%;
+
 }
 #clicks a {
-  width: 11vh;
   font-family: "LuxoraGroteskLight";
   font-size: .8rem;
   letter-spacing: .1rem;
@@ -123,10 +126,53 @@ nav > a {
   text-transform: uppercase;
 }
 #join {
-  margin-right: 5vh;
+  margin-left: 5vh;
 }
 
-/* Extra small devices (phones, 850px and down) */
+/* HERO */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/backg1.png) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h1 {
+  color: #fff;
+  font-family: "LuxoraGroteskMedium";
+  font-size: 300%;
+  font-weight: 500;
+  margin-left: 5vh;
+}
+
+hr {
+  width: 90%;
+  position: absolute;
+  margin-top: 70vh;
+  margin-left: 5vh;
+}
+
+#hero h4 {
+  color: #fff;
+  font-family: "LuxoraGroteskLight";
+  font-size: 1.3rem;
+
+  position: absolute;
+  margin-left: 5vh;
+  margin-top: 85vh;
+}
+
+/* ABOUT */
+
+#about {
+  width: 100%;
+  height: 100vh;
+  background-color: #000207;
+}
+
+/* Nav break point (phones, 850px and down) */
 @media only screen and (max-width: 850px) {
   nav {
     flex-direction: column;
@@ -146,5 +192,17 @@ nav > a {
     margin-top: 2vh;
   }
   
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  #hero h1 {
+    font-size: 200%;
+  }
+  #hero h4 {
+    font-size: 1rem;
+  }
 
 }
