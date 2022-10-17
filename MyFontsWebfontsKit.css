@@ -84,7 +84,9 @@ header {
   height: 10vh;
   position: fixed;
   display: inline-flex;
-  /* background-color: #3E4044; */
+  background-color: rgba(0, 0, 0, 0.27);
+  backdrop-filter: blur(2px);
+  z-index: 1;
 }
 
 nav {
@@ -125,6 +127,13 @@ nav>a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
+}
+
+#clicks a:hover {
+  color: rgba(255, 255, 255, 0.587);
+}
+nav > a:hover {
+  color: rgba(255, 255, 255, 0.587);
 }
 
 #join {
@@ -171,7 +180,7 @@ hr {
 
 #about {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-color: #000207;
   display: flex;
   flex-direction: row;
@@ -191,18 +200,105 @@ hr {
 
 #about-left h4 {
   color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
   margin-left: 5vh;
-
+  font-family: "LuxoraGroteskLight";
 }
 
 #about-right {
-  width: 50%;
+  width: auto;
   display: flex;
+  margin: 0 auto;
 }
 
 #about-right img {
-  width: 50vh;
-  height: 50vh;
+  width: 60vh;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+/* ABOUT2 */
+
+#about2 {
+  width: 100%;
+  height: 80vh;
+  background-color: #000207;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+}
+
+#about-left2 {
+  width: 50%;
+}
+
+#about-left2 h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 4vh;
+}
+
+#about-left2 h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-right: 5vh;
+  font-family: "LuxoraGroteskLight";
+}
+
+#about-right2 {
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+#about-right2 img {
+  width: 60vh;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+/* ABOUT 3 */
+
+#about3 {
+  width: 100%;
+  height: 80vh;
+  background-color: #000207;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#about-left3 {
+  width: 50%;
+}
+
+#about-left3 h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 5vh;
+  padding-bottom: 4vh;
+}
+
+#about-left3 h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 5vh;
+  font-family: "LuxoraGroteskLight";
+}
+
+#about-right3 {
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+#about-right3 img {
+  width: 60vh;
+  height: 60vh;
   margin: 0 auto;
 }
 
@@ -230,8 +326,9 @@ hr {
     margin-top: 2vh;
   }
 
-  #about h1 {
-    padding-top: 20vh;
+  #hero {
+    background: url(./images/backg1.png) no-repeat center right;
+    background-size: cover;
   }
 
 }
@@ -249,6 +346,82 @@ hr {
 
   #about h1 {
     font-size: 1.5rem;
-    padding-top: 20vh;
+  }
+
+  #about-left h1 {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 5vh;
+    padding-bottom: 4vh;
+  }
+  
+  #about-left h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 5vh;
+    font-family: "LuxoraGroteskLight";
+  }
+
+  /* ABOUT 2 */
+  #about2 h1 {
+    font-size: 1.5rem;
+  }
+
+  #about-left2 h1 {
+    color: #fff;
+    font-size: 200%;
+    padding-bottom: 4vh;
+  }
+  
+  #about-left2 h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "LuxoraGroteskLight";
+  }
+
+
+  /* ABOUT 3 */
+
+  #about3 h1 {
+    font-size: 1.5rem;
+  }
+
+  #about-left3 h1 {
+    color: #fff;
+    font-size: 200%;
+    margin-left: 5vh;
+    padding-bottom: 4vh;
+  }
+  
+  #about-left3 h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 5vh;
+    font-family: "LuxoraGroteskLight";
+  }
+
+}
+
+/* Extra small devices (phones, 1024px and down) */
+@media only screen and (max-width: 1024px) {
+  #about-right img {
+    width: 35vh;
+    height: 35vh;
+    margin: 0 auto;
+  }
+
+  #about-right2 img {
+    width: 35vh;
+    height: 35vh;
+    margin: 0 auto;
+  }
+
+  #about-right3 img {
+    width: 35vh;
+    height: 35vh;
+    margin: 0 auto;
   }
 }
