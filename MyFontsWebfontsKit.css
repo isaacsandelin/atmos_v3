@@ -132,7 +132,8 @@ nav>a {
 #clicks a:hover {
   color: rgba(255, 255, 255, 0.587);
 }
-nav > a:hover {
+
+nav>a:hover {
   color: rgba(255, 255, 255, 0.587);
 }
 
@@ -305,12 +306,80 @@ hr {
 /* CREATED FOR BUSINESS */
 #created-for-business {
   width: 100%;
-  height: 100vh;
-  background-color: #fff;
+  height: 25vh;
+  background-color: #000207;
 }
 
-/* Nav break point (phones, 850px and down) */
-@media only screen and (max-width: 850px) {
+#created-for-business h1 {
+  font-size: 2.5rem;
+  margin-left: 5vh;
+  padding-top: 10vh;
+  color: #fff;
+}
+
+#created-for-business h4 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-family: "LuxoraGroteskLight";
+  margin-left: 5vh;
+  padding-top: 1vh;
+  color: rgb(121, 121, 121);
+}
+
+#created-bus {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #000207;
+  align-items: center;
+}
+
+#screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5vh;
+  width: 50%;
+  margin-left: 5vh;
+}
+
+#screen h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 4vh;
+}
+#screen p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-family: "LuxoraGroteskLight";
+}
+
+#screen h2 p {
+  display: flex;
+  flex-direction: column;
+}
+
+#screen-image {
+  margin-right: 5vh;
+  height: 80vh;
+}
+
+#screen-image img {
+  width: auto;
+  height: 80vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
   nav {
     flex-direction: column;
   }
@@ -332,103 +401,78 @@ hr {
   .fa-atmos-logo-black {
     margin-top: 2vh;
   }
+}
 
-  #hero {
-    background: url(./images/backg1.png) no-repeat center right;
-    background-size: cover;
-  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+header {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.27);
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+nav>a {
+  margin-right: 1vh;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 5vh;
+  font-family: "LuxoraGroteskLight";
+  font-size: .8rem;
+  letter-spacing: .1rem;
+}
+
+.fa-atmos-logo-black {
+  font-size: 200%;
+}
+
+#clicks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
 
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+#clicks a {
+  font-family: "LuxoraGroteskLight";
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
 
-  #hero h1 {
-    font-size: 200%;
-  }
+#clicks a:hover {
+  color: rgba(255, 255, 255, 0.587);
+}
 
-  #hero h4 {
-    font-size: 1rem;
-  }
+nav>a:hover {
+  color: rgba(255, 255, 255, 0.587);
+}
 
-  #about h1 {
-    font-size: 1.5rem;
-  }
-
-  #about-left h1 {
-    color: #fff;
-    font-size: 200%;
-    margin-left: 5vh;
-    padding-bottom: 4vh;
-  }
-  
-  #about-left h4 {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 200;
-    margin-left: 5vh;
-    font-family: "LuxoraGroteskLight";
-  }
-
-  /* ABOUT 2 */
-  #about2 h1 {
-    font-size: 1.5rem;
-  }
-
-  #about-left2 h1 {
-    color: #fff;
-    font-size: 200%;
-    padding-bottom: 4vh;
-  }
-  
-  #about-left2 h4 {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 200;
-    font-family: "LuxoraGroteskLight";
-  }
-
-
-  /* ABOUT 3 */
-
-  #about3 h1 {
-    font-size: 1.5rem;
-  }
-
-  #about-left3 h1 {
-    color: #fff;
-    font-size: 200%;
-    margin-left: 5vh;
-    padding-bottom: 4vh;
-  }
-  
-  #about-left3 h4 {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 200;
-    margin-left: 5vh;
-    font-family: "LuxoraGroteskLight";
-  }
+#join {
+  margin-left: 5vh;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 
 }
 
-/* Extra small devices (phones, 1024px and down) */
-@media only screen and (max-width: 1024px) {
-  #about-right img {
-    width: 35vh;
-    height: 35vh;
-    margin: 0 auto;
-  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
-  #about-right2 img {
-    width: 35vh;
-    height: 35vh;
-    margin: 0 auto;
-  }
-
-  #about-right3 img {
-    width: 35vh;
-    height: 35vh;
-    margin: 0 auto;
-  }
 }
