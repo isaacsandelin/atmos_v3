@@ -406,16 +406,16 @@ hr {
   /* ABOUT */
   
   #about-left h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   
   #about-left h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   #about-right img {
-    width: 30vh;
-    height: 30vh;
+    width: 20vh;
+    height: 20vh;
     margin: 0 auto;
   }
   
@@ -423,54 +423,54 @@ hr {
   
   
   #about-left2 h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   
   #about-left2 h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   #about-right2 img {
-    width: 30vh;
-    height: 30vh;
+    width: 20vh;
+    height: 20vh;
     margin: 0 auto;
   }
   
   /* ABOUT 3 */
   
   #about-left3 h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   
   #about-left3 h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   #about-right3 img {
-    width: 30vh;
-    height: 30vh;
+    width: 20vh;
+    height: 20vh;
     margin: 0 auto;
   }
   
   /* CREATED FOR BUSINESS */
   
   #created-for-business h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   
   #created-for-business h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   #screen h2 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 4vh;
   }
   #screen p {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
     font-family: "LuxoraGroteskLight";
   }
@@ -481,12 +481,12 @@ hr {
   }
   
   #screen-image {
-    height: 40vh;
+    height: 20vh;
   }
   
   #screen-image img {
     width: auto;
-    height: 40vh;
+    height: 20vh;
   }
   
   #screen {
