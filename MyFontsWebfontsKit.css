@@ -372,6 +372,159 @@ hr {
   height: 80vh;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+/* HERO */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/backg1.png) no-repeat right center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ABOUT */
+
+#about-left h1 {
+  font-size: 1.7rem;
+}
+
+#about-left h4 {
+  font-size: 1.2rem;
+}
+
+#about-right img {
+  width: 30vh;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+/* ABOUT2 */
+
+
+#about-left2 h1 {
+  font-size: 1.7rem;
+}
+
+#about-left2 h4 {
+  font-size: 1.2rem;
+}
+
+#about-right2 img {
+  width: 30vh;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+/* ABOUT 3 */
+
+#about-left3 h1 {
+  font-size: 1.7rem;
+}
+
+#about-left3 h4 {
+  font-size: 1.2rem;
+}
+
+#about-right3 img {
+  width: 30vh;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+/* CREATED FOR BUSINESS */
+
+#created-for-business h1 {
+  font-size: 1.7rem;
+}
+
+#created-for-business h4 {
+  font-size: 1.2rem;
+}
+
+#screen h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 4vh;
+}
+#screen p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: "LuxoraGroteskLight";
+}
+
+#screen h2 p {
+  display: flex;
+  flex-direction: column;
+}
+
+#screen-image {
+  height: 40vh;
+}
+
+#screen-image img {
+  width: auto;
+  height: 40vh;
+}
+
+#screen {
+  width: 90%;
+  text-align: center;
+}
+
+#created-bus {
+  height: 100vh;
+  flex-direction: column;
+}
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+
+ 
+
+  #about-right img {
+    width: 40vh;
+    height: 40vh;
+    margin: 0 auto;
+  }
+  #about-right2 img {
+    width: 40vh;
+    height: 40vh;
+    margin: 0 auto;
+  }
+  #about-right3 img {
+    width: 40vh;
+    height: 40vh;
+    margin: 0 auto;
+  }
+
+  #screen-image {
+    margin-right: 5vh;
+    height: 60vh;
+  }
+  
+  #screen-image img {
+    width: auto;
+    height: 60vh;
+  }
+
+  #screen {
+    width: 90%;
+    text-align: center;
+  }
+
+  #created-bus {
+    height: 100vh;
+    flex-direction: column;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #about-right img {
@@ -400,8 +553,14 @@ hr {
     height: 50vh;
   }
 
+  #screen {
+    width: 50%;
+    text-align: left;
+  }
+
   #created-bus {
     height: 80vh;
+    flex-direction: row;
   }
 }
 
@@ -436,6 +595,69 @@ hr {
   #created-bus {
     height: 80vh;
   }
+
+  /* ABOUT */
+
+#about-left h1 {
+  font-size: 2rem;
+}
+
+#about-left h4 {
+  font-size: 1.5rem;
+}
+
+
+/* ABOUT2 */
+
+
+#about-left2 h1 {
+  font-size: 2rem;
+}
+
+#about-left2 h4 {
+  font-size: 1.5rem;
+}
+
+
+/* ABOUT 3 */
+
+#about-left3 h1 {
+  font-size: 2rem;
+}
+
+#about-left3 h4 {
+  font-size: 1.5rem;
+}
+
+
+/* CREATED FOR BUSINESS */
+
+#created-for-business h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#created-for-business h4 {
+  font-size: 1.5rem;
+}
+
+#screen h2 {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 4vh;
+}
+#screen p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: "LuxoraGroteskLight";
+}
+
+#screen h2 p {
+  display: flex;
+  flex-direction: column;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1400px and up) */
