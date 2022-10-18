@@ -372,8 +372,154 @@ hr {
   height: 80vh;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1vh;
+  }  
+
+  nav a {
+    padding-bottom: 1vh;
+  }
+  #clicks {
+    visibility: hidden;
+  }
+
+  header {
+    flex-direction: column;
+    height: 15vh;
+  }
+
+  /* HERO */
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/backg1.png) no-repeat right center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* ABOUT */
+  
+  #about-left h1 {
+    font-size: 1.7rem;
+  }
+  
+  #about-left h4 {
+    font-size: 1.2rem;
+  }
+  
+  #about-right img {
+    width: 30vh;
+    height: 30vh;
+    margin: 0 auto;
+  }
+  
+  /* ABOUT2 */
+  
+  
+  #about-left2 h1 {
+    font-size: 1.7rem;
+  }
+  
+  #about-left2 h4 {
+    font-size: 1.2rem;
+  }
+  
+  #about-right2 img {
+    width: 30vh;
+    height: 30vh;
+    margin: 0 auto;
+  }
+  
+  /* ABOUT 3 */
+  
+  #about-left3 h1 {
+    font-size: 1.7rem;
+  }
+  
+  #about-left3 h4 {
+    font-size: 1.2rem;
+  }
+  
+  #about-right3 img {
+    width: 30vh;
+    height: 30vh;
+    margin: 0 auto;
+  }
+  
+  /* CREATED FOR BUSINESS */
+  
+  #created-for-business h1 {
+    font-size: 1.7rem;
+  }
+  
+  #created-for-business h4 {
+    font-size: 1.2rem;
+  }
+  
+  #screen h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 4vh;
+  }
+  #screen p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: "LuxoraGroteskLight";
+  }
+  
+  #screen h2 p {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #screen-image {
+    height: 40vh;
+  }
+  
+  #screen-image img {
+    width: auto;
+    height: 40vh;
+  }
+  
+  #screen {
+    width: 90%;
+    text-align: center;
+  }
+  
+  #created-bus {
+    height: 100vh;
+    flex-direction: column;
+  }
+    
+  }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1vh;
+  }  
+
+  nav a {
+    padding-bottom: 1vh;
+  }
+  #clicks {
+    visibility: hidden;
+  }
+
+  header {
+    flex-direction: column;
+    height: 15vh;
+  }
 /* HERO */
 #hero {
   width: 100%;
@@ -486,7 +632,19 @@ hr {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) { 
 
- 
+  nav {
+    flex-direction: row;
+  }  
+
+  
+  #clicks {
+    visibility:visible;
+  }
+
+  header {
+    flex-direction: row;
+    height: 10vh;
+  }
 
   #about-right img {
     width: 40vh;
