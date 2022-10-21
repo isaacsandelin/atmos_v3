@@ -9,6 +9,10 @@ body {
   background-color: #3E4044;
 }
 
+.active {
+  color: #F5E311;
+  text-decoration: underline;
+}
 @font-face {
   font-family: "LuxoraGroteskThin";
   src: url('webFonts/LuxoraGroteskThin/font.woff2') format('woff2'), url('webFonts/LuxoraGroteskThin/font.woff') format('woff');
@@ -366,7 +370,6 @@ hr {
 }
 
 #screen-image {
-  margin-right: 5vh;
   height: 80vh;
 }
 
@@ -423,7 +426,7 @@ hr {
 /* PRICING */
 #title-pricing {
   width: 100%;
-  height: 30vh;
+  height: 100vh;
   background-color: #383C3D;
   display: flex;
   flex-direction: column;
@@ -441,18 +444,6 @@ hr {
   font-size: 1.3rem;
   font-weight: 200;
   padding-left: 5vh;
-}
-
-#plans {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #383C3D;
-}
-
-#plans img {
-  width: 145vh;
-  height: auto;
 }
 
 
@@ -566,12 +557,12 @@ hr {
   }
   
   #screen-image {
-    height: 20vh;
+    height: 30vh;
   }
   
   #screen-image img {
     width: auto;
-    height: 20vh;
+    height: 30vh;
   }
   
   #screen {
@@ -748,7 +739,6 @@ hr {
   }
 
   #screen-image {
-    margin-right: 5vh;
     height: 60vh;
   }
   
