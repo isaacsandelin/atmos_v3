@@ -426,7 +426,7 @@ hr {
 /* PRICING */
 #title-pricing {
   width: 100%;
-  height: 100vh;
+  height: 30vh;
   background-color: #383C3D;
   display: flex;
   flex-direction: column;
@@ -446,6 +446,52 @@ hr {
   padding-left: 5vh;
 }
 
+#plans {
+  width: 100%;
+  height: 70vh;
+  background-color: #383C3D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#essential, #premium, #enterprise {
+  width: 50vh;
+  height: 40vh;
+  background-color: #777674;
+  margin: 5vh 5vh 0 5vh;
+}
+
+#essential h4, #premium h4, #enterprise h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 2vh 0 0 2vh;
+}
+
+#essential h1, #premium h1, #enterprise h1 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 1vh 0 2vh 2vh;
+  letter-spacing: 0.1rem;
+}
+
+#essential li, #premium li, #enterprise li {
+  color: #fff;
+  font-size: 0.rem;
+  font-weight: 200;
+  padding: 1vh 0 0 2vh;
+  letter-spacing: 0.1rem;
+  list-style: inside;
+}
+
+#premium h6, #enterprise h6 {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: 1vh 0 0 2vh;
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and down) */
@@ -573,6 +619,16 @@ hr {
   #created-bus {
     height: 100vh;
     flex-direction: column;
+  }
+
+  #plans {
+    width: 100%;
+    height: 120vh;
+    background-color: #383C3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
     
 }
@@ -702,6 +758,16 @@ hr {
   height: 100vh;
   flex-direction: column;
 }
+
+#plans {
+  width: 100%;
+  height: 120vh;
+  background-color: #383C3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
   
 }
 
@@ -756,6 +822,17 @@ hr {
     height: 100vh;
     flex-direction: column;
   }
+
+  #plans {
+    width: 100%;
+    height: 120vh;
+    background-color: #383C3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -794,6 +871,15 @@ hr {
   #created-bus {
     height: 80vh;
     flex-direction: row;
+  }
+
+  #plans {
+    width: 100%;
+    height: 70vh;
+    background-color: #383C3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
