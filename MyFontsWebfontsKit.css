@@ -156,6 +156,10 @@ nav>a:hover {
   flex-direction: column;
 }
 
+#link {
+  visibility: hidden;
+}
+
 #hero h1 {
   color: #fff;
   font-family: "LuxoraGroteskMedium";
@@ -524,7 +528,6 @@ footer {
 #cafe, #salon, #spa, #yoga, #restaurant, #store {
   width: 40vh;
   height: 30vh;
-  background-color: aqua;
 }
 
 #cafe img, #salon img, #spa img, #yoga img, #restaurant img, #store img {
@@ -555,7 +558,7 @@ footer {
 
   header {
     flex-direction: column;
-    height: 15vh;
+    height: 17vh;
   }
 
   /* HERO */
@@ -567,6 +570,44 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  #hero h1 {
+    color: #fff;
+    font-family: "LuxoraGroteskMedium";
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 5vh;
+  }
+
+  #link {
+    visibility: visible;
+    margin-left: 5vh;
+    margin-top: 4vh;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF673A;
+    width: 12vh;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 1vh;
+  }
+  
+  hr {
+    width: 90%;
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 5vh;
+  }
+  
+  #hero h4 {
+    color: #fff;
+    font-family: "LuxoraGroteskLight";
+    font-weight: 500;
+    font-size: 1.3rem;
+  
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: 85vh;
   }
   
   /* ABOUT */
@@ -696,7 +737,6 @@ footer {
   #cafe, #salon, #spa, #yoga, #restaurant, #store {
     width: 40vh;
     height: 30vh;
-    background-color: aqua;
   }
   
   #cafe img, #salon img, #spa img, #yoga img, #restaurant img, #store img {
@@ -729,7 +769,7 @@ footer {
 
   header {
     flex-direction: column;
-    height: 15vh;
+    height: 17vh;
   }
 /* HERO */
 #hero {
@@ -740,6 +780,18 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+#link {
+  visibility: visible;
+  margin-left: 5vh;
+  margin-top: 4vh;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF673A;
+  width: 12vh;
+  padding: 1vh 2vh 1vh 2vh;
+  border-radius: 1vh;
 }
 
 /* ABOUT */
@@ -893,6 +945,10 @@ footer {
   nav {
     flex-direction: row;
   }  
+
+  #link {
+    visibility: hidden;
+  }
 
   
   #clicks {
