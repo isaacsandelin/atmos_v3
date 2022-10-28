@@ -483,7 +483,7 @@ hr {
 
 #essential li, #premium li, #enterprise li {
   color: #fff;
-  font-size: 0.rem;
+  font-size: 0rem;
   font-weight: 200;
   padding: 1vh 0 0 2vh;
   letter-spacing: 0.1rem;
